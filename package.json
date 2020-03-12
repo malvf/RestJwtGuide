@@ -1,0 +1,38 @@
+{
+  "name": "rest-jwt-typescript-guide",
+  "version": "1.0.0",
+  "description": "Just a simple guide in typescript development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon --config \"./config/nodemon.json\""
+  },
+  "keywords": [
+    "typescript",
+    "fullstack",
+    "node",
+    "react",
+    "api",
+    "rest",
+    "json",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Matheus Alvarenga França",
+  "license": "ISC",
+  "dependencies": {
+    "@overnightjs/core": "^1.6.15",
+    "@types/jsonwebtoken": "^8.3.8",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/mongoose": "^5.7.5",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
